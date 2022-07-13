@@ -1,0 +1,539 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+
+    h2{
+        font-size: 5em;
+    }   
+}
+
+nav{
+    height: auto;
+    a{  
+        margin-top: 1em;
+    }
+    li{
+        margin: 0 1vw 0 1vw;
+    }
+    img{
+        width: 3vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+}
+#footer{
+    height: 10vw;
+    margin-bottom: 8em;
+    .tarjetas{
+        margin-left: 5em;
+        display: flex;
+    flex-direction: column;
+    }
+    
+    img{
+        width: 5vw;
+        padding: 1em;
+    }
+}
+@media only screen and (min-width:600px){
+
+
+    #banner{
+        background-image: url("../images/tienda.jpg");
+        height: 40vw; 
+        width: 100%;
+        color: white;
+        h2{
+            position: absolute;
+            top: 4em;
+            width: 13em;
+        }
+    }
+    
+    #secciones{   
+        background-image: url("../images/wave.svg");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20vw;
+        div{
+            margin: 2em 8em 2em 8em;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 1vw;     
+            transition: .5s;
+            height: 10vw;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+    
+    
+    
+    
+    
+    
+        }
+        img{
+            height: 7vw;
+    
+    
+        }
+        div:hover{
+            transition: all .5s;
+            transform: scale(1.2, 1.2);
+           
+        }
+    
+        .contacto{
+            border-right: solid 2px black;
+            border-left: solid 2px black;
+            padding-right: 10em;
+            padding-left: 10em;
+        }
+    
+        
+    }
+    
+    #footer{
+        height: 10vw;
+        margin-bottom: 8em;
+        .tarjetas{
+            margin-left: 5em;
+            display: flex;
+        flex-direction: column;
+        }
+        
+        img{
+            width: 5vw;
+            padding: 1em;
+        }
+    }
+    #bannerCatalogo{
+        background-image: url("../images/compra.png");
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        width: 100%;
+        height: 40vw;
+        h2{
+            position: absolute;
+            top: 20vw;
+            left: 2em;
+        }
+    }
+    
+    #cards{
+        background-image: url("../images/wavesCatalogo.svg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            background-color: rgb(226, 226, 226);
+            margin: 3em;
+            width: 18vw;
+            height: 25vw;
+            transition: all .3s;
+            border-radius: 1em;
+    
+            img{
+                padding: 2em 2em 2em 2em;
+                width: 18vw;
+            }
+        }
+        div:hover{
+            transition: all .3s;
+            transform: scale(1.1, 1.1);
+        }
+        h5{
+            margin-left: 1em;
+            font-size: 1.5vw;
+        }
+    
+    }
+    
+    #contacto{
+        background-image: url("../images/wavesCatalogo.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vw;
+    }
+    
+    #contacto{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        section{
+            h3{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: center;
+                img{
+                    width: 3vw;
+                    padding-right: .5em;
+                }
+                p{
+                    margin-top: 1em;   
+                }
+            }
+            
+        }
+    
+        #contacto2{
+            margin-top: .4vw;
+            width: 30em;
+            padding: 2vw;
+            background-color: rgba(171, 169, 169, 0.276);
+            border-radius: 3em;
+            margin-left: 2em;
+            img{
+                margin-top: .7vw;
+                margin-bottom: 5vw;
+                width: 7vw;
+                height: 4vw;
+            }
+        }
+    
+        #contacto1{
+            background-image: url("../images/fondoContacto1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 1vw;
+            img{
+                margin-bottom: 5vw;
+                width: 18vw;
+                padding: 2vw;
+            }
+        }
+        #contacto1{
+            border-radius: 5em;
+            h3{
+                margin-bottom: 2vw;
+                background-color: rgba(255, 255, 255, 0.424);
+                border-radius: 5em;
+                padding: .5vw;
+            }
+            h5{
+                background-color:rgba(255, 255, 255, 0.774);
+                border-radius: 5em;
+                padding: .5vw;
+            }
+        }
+    
+        #contacto3{
+            padding: 3vw;
+            img{
+                width: 5vw;
+                margin-right: 2.3em;
+            }
+    
+            p{
+                color: white;
+                margin-top: 2vw;
+            }
+        }
+    }
+}
+#banner{
+    background-image: url("../images/tienda.jpg");
+    height: 40vw; 
+    width: 100%;
+    color: white;
+    h2{
+        position: absolute;
+        top: 4em;
+        width: 13em;
+    }
+}
+
+#secciones{   
+    background-image: url("../images/wave.svg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+    div{
+        margin: 2em 8em 2em 8em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;  
+        font-size: 1vw;     
+        transition: .5s;
+        height: 10vw;
+        
+
+
+
+
+
+
+    }
+    img{
+        height: 7vw;
+
+
+    }
+    div:hover{
+        transition: all .5s;
+        transform: scale(1.2, 1.2);
+    }
+
+    .contacto{
+        border-right: solid 2px black;
+        border-left: solid 2px black;
+        padding-right: 10em;
+        padding-left: 10em;
+    }
+
+    
+}
+
+
+#bannerCatalogo{
+    background-image: url("../images/compra.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    width: 100%;
+    height: 40vw;
+    h2{
+        position: absolute;
+        top: 20vw;
+        left: 2em;
+    }
+}
+
+#cards{
+    background-image: url("../images/wavesCatalogo.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        background-color: rgb(226, 226, 226);
+        margin: 3em;
+        width: 20vw;
+        height: 30vw;
+        transition: all .3s;
+        border-radius: 1em;
+
+        img{
+            padding: 2em 2em 2em 2em;
+            width: 20vw;
+        }
+    }
+    div:hover{
+        transition: all .3s;
+        transform: scale(1.1, 1.1);
+    }
+    h5{
+        margin-left: 1em;
+        font-size: 1.5vw;
+    }
+
+}
+
+#contacto{
+    background-image: url("../images/wavesCatalogo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+}
+
+#contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    section{
+        h3{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            img{
+                width: 3vw;
+                padding-right: .5em;
+            }
+            p{
+                margin-top: 1em;   
+            }
+        }
+        
+    }
+
+    #contacto2{
+        margin-top: .4vw;
+        width: 30em;
+        padding: 2vw;
+        background-color: rgba(171, 169, 169, 0.276);
+        border-radius: 3em;
+        margin-left: 2em;
+        img{
+            margin-top: .7vw;
+            margin-bottom: 5vw;
+            width: 7vw;
+            height: 4vw;
+        }
+    }
+
+    #contacto1{
+        background-image: url("../images/fondoContacto1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1vw;
+        img{
+            margin-bottom: 5vw;
+            width: 18vw;
+            padding: 2vw;
+        }
+    }
+    #contacto1{
+        border-radius: 5em;
+        h3{
+            margin-bottom: 2vw;
+            background-color: rgba(255, 255, 255, 0.424);
+            border-radius: 5em;
+            padding: .5vw;
+        }
+        h5{
+            background-color:rgba(255, 255, 255, 0.774);
+            border-radius: 5em;
+            padding: .5vw;
+        }
+    }
+
+    #contacto3{
+        padding: 3vw;
+        img{
+            width: 5vw;
+            margin-right: 2.3em;
+        }
+
+        p{
+            color: white;
+            margin-top: 2vw;
+        }
+    }
+}
+
+@media only screen and (max-width:500px){
+    header{
+        img{
+            width: 8vw;
+        }
+    }
+    
+    #banner{
+        background-image: url("../images/tienda.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #secciones{
+        position: relative;
+        top: 25em;
+        display: flex;
+        flex-direction: column;
+        height: 50em;
+        margin-top: 0;
+        div{
+            padding-bottom: 90vw;
+            align-items: center;
+            img{
+                width: 40vw;
+                height: 30vw;
+
+            }
+            font-size: 4vw;
+        }
+
+        .contacto{
+            position: relative;
+            right: 5.3em;
+        }
+        .tienda{
+            color: black;
+        }
+
+        .ubicacion{
+            color: black;
+        }
+
+    }
+
+
+
+    #bannerCatalogo{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vw;
+
+        h2{
+            position: relative;
+            right: 15em;
+        }
+    }
+    #cards{
+        div{
+            width: 70vw;
+            height: 100vw;
+
+            img{
+                width: 70vw;
+            }
+
+            h5{
+                font-size: 7vw;
+            }
+        }
+    }
+
+
+    #contacto{
+        display: flex;
+        flex-direction: column;
+        height: 300vw;
+
+        section{
+            margin: 10vw;
+        }
+
+        #contacto1{
+            height: 80vw;
+            background-size: cover;
+            img{
+                width: 45vw;
+                margin-left: 5em;
+            }
+            h5{
+                margin-top: .5em;
+                padding: .8em;
+            }
+        }
+        #contacto2{
+            text-align: center;
+            position: relative;
+            margin-bottom: 10vw;
+        }
+        #contacto3{
+            width: 100%;
+        }
+    }
+
+}
