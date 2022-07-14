@@ -39,7 +39,7 @@ nav{
 
 
     #banner{
-        background-image: url("../images/tienda.jpg");
+        background-image: url("../images/imagesCatalogo/13.jpeg");
         height: 40vw; 
         width: 100%;
         color: white;
@@ -244,7 +244,7 @@ nav{
     }
 }
 #banner{
-    background-image: url("../images/tienda.jpg");
+    background-image: url("../images/imagesCatalogo/13.jpeg");
     height: 40vw; 
     width: 100%;
     color: white;
@@ -432,7 +432,7 @@ nav{
     }
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     header{
         img{
             width: 8vw;
@@ -440,14 +440,19 @@ nav{
     }
     
     #banner{
-        background-image: url("../images/tienda.jpg");
+        background-image: url("../images/imagesCatalogo/13.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
+        h2{
+            position: relative;
+            top: 1em;
+            font-size: 10vw;
+        }
     }
 
     #secciones{
         position: relative;
-        top: 25em;
+        top: 40em;
         display: flex;
         flex-direction: column;
         height: 50em;
@@ -492,7 +497,7 @@ nav{
     #cards{
         div{
             width: 70vw;
-            height: 100vw;
+            height: 120vw;
 
             img{
                 width: 70vw;
@@ -518,7 +523,6 @@ nav{
             height: 80vw;
             background-size: cover;
             img{
-                width: 45vw;
                 margin-left: 5em;
             }
             h5{
